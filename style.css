@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+header p{
+    text-align: center;
+    font-size: 45px;
+    font-weight:bold;
+    position: absolute;
+    right: 40%;
+    bottom: 92%;
+}
+
+
+
+.menu{
+    position: relative;
+    left: 95rem;
+    bottom: 25px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-size: 20px;
+    font-weight:bold;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.menu a:hover{
+    box-shadow: 0 0 0 2px black;
+    border-radius: 10%;
+    padding: 0;
+    background-color: rgba(30, 186, 30, 0.808);
+    color: white;
+    transition: .4s;
+    padding: 5px;
+}
+
+body{
+    background: linear-gradient(to right, rgba(72, 3, 72, 0.951), rgba(250, 4, 4, 0.892));
+}
+
+#input-form{
+    display: flex;
+    left: 150px;
+    position: relative;
+}
+
+#email{
+    position:relative;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 250px;
+    left: 30rem;
+    border:none;
+    outline:none;
+}
+
+#send{
+    font-size: 1rem;
+    padding: 5px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+    top: 245px;
+    left: 500px;
+    width: 100px;
+    font-weight:bold;
+    border-radius: 25px;
+}
+
+#send:hover{
+    opacity: 0.7;
+    
+    background-color: lime;
+    color: white;
+}
+
+footer{
+    position: relative;
+    top: 47rem;
+    height: 100px;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position:relative;
+    top: 25px;
+}
+
+#list{
+    background-color: white;
+    width: 300px;
+    min-height: 54vh;
+    position: absolute;
+    top: 500px;
+    display: none;
+    font-weight: bold;
+
+}
+
+#list h1{
+    font-size: 18px;
+}
+hr{
+    border-width: 2px;
+    color: black;
+}
+
+#rev{
+    font-size: 0.8rem;
+    width: 100px;
+    font-weight:bold;
+    border-radius: 25px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    position:relative;
+    left: 50%;
+    top: 16rem;
+}
+
+#rev:hover{
+    opacity: 0.7;
+    background-color: lime;
+    color: white;
+}
+
+i{
+    margin: 10px;
+    position:relative;
+    left: 10px;
+    bottom: 5px;
+    cursor:pointer;
+    color: white;
+}
